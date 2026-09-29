@@ -1,0 +1,33 @@
+# Секреты — НИКОГДА не загружать
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ChromaDB кэш (пересоздаётся автоматически)
+.chroma_cache/
+
+# Аудио-файлы (генерируются на лету)
+*.mp3
+*.wav
+
+# Скриншоты и временные файлы
+Screenshot*.png
+
+# Jupyter
+.ipynb_checkpoints/
+qwen3_nbrk_finetune.ipynb
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# HuggingFace кэш моделей
+.cache/
